@@ -1,0 +1,67 @@
+@import "./global";
+
+.cart-container{
+    min-height: 100vh;
+    h2{
+        font-size: 2rem;
+        text-transform: capitalize;
+        .cart-span{
+            color: $mainRed;
+        }
+    }
+    .incart-items{
+        display: flex;
+        justify-content: space-around;
+         
+        h3{
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            
+        }
+        img{
+            margin-bottom: 1rem;
+            height: 100px;
+        }
+        span{
+          display: inline-block;
+          font-size: 1.5rem;
+          cursor: pointer;
+          &:hover{
+              color: $mainRed;
+          }
+         &:last-child{
+             margin-left: 0.1rem;
+         }
+        }
+        p{
+          text-align: center;
+
+        }
+    
+       
+    }
+    .cart-smart{
+        position: absolute;
+        right: 5%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        h2{
+            margin: 1rem 0;
+        }
+    }
+}
+@media (max-width: 750px){
+    .incart-items{
+        margin-right: 1rem;
+         h3{
+            margin-right: 1.5rem;
+        }
+        .updown-btn{
+           p, span{
+               margin-right: 0.6rem ;
+           }
+           
+        }
+    }
+}

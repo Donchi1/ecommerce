@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    min-height: 6vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  $mainBlue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+                    &:first-child {
+                        flex-basis: 25%;
+                    }
+                    &:last-child {
+                        flex-basis: 17%;
+                    }
+                    img{
+                        width: 80px;
+                        border-radius: 20%;
+                        transition: all 0.2s linear;
+                        &:hover{
+                            opacity: 0.9;
+                        }
+                    }
+        h1{
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $primary;
+       } 
+      
+           
+    }
+               .cart-icon{
+                   color: white;
+                   margin-right: 0.5rem;
+               }
+           
+}
+

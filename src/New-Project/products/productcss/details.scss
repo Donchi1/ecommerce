@@ -1,0 +1,83 @@
+@import './global';
+
+.details {
+  display: flex;
+  align-items: center;
+  div {
+    flex-basis: 45%;
+    h2 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+      color: $primary;
+    }
+    p {
+      margin: 1rem 0;
+    }
+  }
+  .img {
+    img {
+      max-width: 100%;
+      width: 500px;
+      height: 500px;
+    }
+  }
+  h4 {
+    font-size: 1.3rem;
+    color: $primary;
+  }
+  .span-img {
+    padding: 1rem;
+    img {
+      width: 70px;
+      &:hover{
+        transform: scale(1.1);
+        cursor: zoom-in;
+      }
+    }
+  }
+}
+.specify-title{
+    color: $primary;
+    font-size: 2rem;
+    margin: 3rem;
+    text-align: center;
+  
+ 
+}
+.specify{
+  display: flex;
+  align-items: center;
+   
+    justify-content: center;
+    
+    h4, h5{
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px dotted black;
+      color: rgba($color: #000000, $alpha: .7);
+    }
+    h5{
+      margin-left: 2rem;
+    }
+    div{
+      background-color: rgba($color: rgb(255, 255, 255), $alpha: .9);
+     
+      padding: 2.8rem;
+      margin-bottom: 1rem;
+    }
+    .last-spec{
+      padding: 2.2rem;
+    }
+
+}
+@media (max-width:900px ){
+   .details{
+     display: flex;
+     flex-direction: column;
+     margin: 0 2rem;
+   }
+}

@@ -1,0 +1,18 @@
+
+$primary:  rgb(240, 178, 62);
+$mainwhite: white;
+$mainBlue : rgb(65, 65, 238);
+$mainRed : red;
+
+
+.empty{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ h1{
+     margin-top: 10rem;
+ }
+ 
+  
+}

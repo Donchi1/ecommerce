@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 6vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #4141ee;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header div:first-child {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+header div:last-child {
+  -ms-flex-preferred-size: 17%;
+      flex-basis: 17%;
+}
+
+header div img {
+  width: 80px;
+  border-radius: 20%;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+header div img:hover {
+  opacity: 0.9;
+}
+
+header div h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #e7e79d;
+}
+
+header div button {
+  background: transparent;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid white;
+  cursor: pointer;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  font-size: 1.2rem;
+  color: red;
+  border-radius: 0.2rem;
+  width: 100%;
+}
+
+header div button:hover {
+  border: 1px solid yellow;
+}
+
+header div button .cart-icon {
+  color: white;
+  margin-right: 0.5rem;
+}
+/*# sourceMappingURL=Nav.css.map */

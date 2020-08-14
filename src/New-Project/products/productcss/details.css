@@ -1,0 +1,124 @@
+.empty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.empty h1 {
+  margin-top: 10rem;
+}
+
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.details div {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+.details div h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.details div h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: #f0b23e;
+}
+
+.details div p {
+  margin: 1rem 0;
+}
+
+.details .img img {
+  max-width: 100%;
+  width: 500px;
+  height: 500px;
+}
+
+.details h4 {
+  font-size: 1.3rem;
+  color: #f0b23e;
+}
+
+.details .span-img {
+  padding: 1rem;
+}
+
+.details .span-img img {
+  width: 70px;
+}
+
+.details .span-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.specify-title {
+  color: #f0b23e;
+  font-size: 2rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.specify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.specify h4, .specify h5 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px dotted black;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.specify h5 {
+  margin-left: 2rem;
+}
+
+.specify div {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.specify .last-spec {
+  padding: 2.2rem;
+}
+
+@media (max-width: 900px) {
+  .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 2rem;
+  }
+}
+/*# sourceMappingURL=details.css.map */
